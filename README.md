@@ -27,3 +27,18 @@ This is a simple URL shortener service built with Golang for the backend and HTM
    ```sh
    git clone https://github.com/Kirill-Sorokin/url_shortener.git
    cd url_shortener
+
+2. **Install Dependencies**:
+   ```go get -u github.com/gorilla/mux
+
+3. **Run the Go server**:
+   ```go run main.go
+
+4. **Open the frontend**:
+   Open your web browser and go to 'http://localhost:8080'
+
+**Usage**:
+1. Shorten a URL:
+     - Enter the URL you want to shorten in the input field.
+     - Click the 'Shorten URL button.
+     - The shortened URL will be displayed below the input field.
