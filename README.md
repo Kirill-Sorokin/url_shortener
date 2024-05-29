@@ -29,10 +29,12 @@ This is a simple URL shortener service built with Golang for the backend and HTM
    cd url_shortener
 
 2. **Install Dependencies**:
-   ```go get -u github.com/gorilla/mux
+   ```sh
+   go get -u github.com/gorilla/mux
 
 3. **Run the Go server**:
-   ```go run main.go
+   ```sh
+   go run main.go
 
 4. **Open the frontend**:
    Open your web browser and go to 'http://localhost:8080'
